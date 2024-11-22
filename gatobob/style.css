@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("./assets/fotos/James_and_Bob\ 1.png");
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    display:inline-block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 27px;
+    height: 100%;
+    background-color: rgb(255, 255, 255, 0.3);
+    font-family: "Inter", serif;
+    margin: 80px 107px ;
+}
+.formulario {
+    margin: 85px 80px;
+}
+#email, #senha{
+    border: 1px solid transparent;
+    width: 440px;
+    height: 69px;
+    border-radius: 10px;
+    margin: 16px 0;
+}
+
+.formulario>h1{
+    color: #292929;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.formulario>h2{
+    color: #545454;
+    font-family: "IBM Plex Serif";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.continuar{
+    color: #4F4F4F;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.foto{
+    /* background-color: tomato;
+    margin: 0px 50px; */
+}
+.socialmidia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+}
+.socialmidia li{
+    background-color: white;
+    width: 131px;
+    height: 67px;
+    border-radius: 4px;
+    align-items: center;
+    margin-top: 36px;
+}
+.socialmidia li img{
+    margin: 10px;
+}
+input#senha{
+    margin-bottom: 47px;
+}
+.btn-enviar{
+    width: 312px;
+    height: 62px;
+    border: 1px solid transparent;
+    background-color: #0366FF;
+    color: white;
+    font-family: "IBM Plex Serif";
+    font-style: normal;
+    line-height: normal;
+    border-radius: 8px;
+    
+}
